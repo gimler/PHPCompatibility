@@ -12,9 +12,10 @@
   "license" : "LGPL",
   "keywords" : [ "compatibility", "phpcs", "standards" ],
   "autoload" : {
-    "psr-4" : {
-      "PHPCompatibility\\" : ""
-    }
+    "classmap" : [
+      "Sniff.php",
+      "Sniffs/"
+    ]
   },
   "type" : "phpcodesniffer-standard",
   "support" : {
